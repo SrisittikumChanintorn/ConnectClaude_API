@@ -38,7 +38,7 @@ You can change how the AI responds by editing the "instruction" line in `main.py
 ## Files included
 
 - `main.py` - The main program
-- `claude_chatbot.py` - Handles communication with Claude
+- `anthropic_chatbot.py` - Handles communication with Claude
 - `requirements.txt` - Lists required software
 
 Enjoy chatting with AI from your terminal!

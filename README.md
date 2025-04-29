@@ -23,8 +23,7 @@ The program can:
    
 3. Add your Anthropic API key in the `main.py` file
 ```bash
-# Initialize the Anthropic API client
-llm1 = anthropic.Anthropic(api_key=api_key)
+api_key = 'YOUR_API_KEY'  # Replace with your actual API key
 ```
 4. Run the program in CMD : `python main.py`
 

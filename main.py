@@ -8,7 +8,7 @@ from anthropic_chatbot import Normal_LLM
 instruction = "You are a world-class poet. Respond only with short poems."
 model_name = "claude-3-5-sonnet-20240620"
 max_tokens = 1000
-api_key = 'YOUR_API_KEY'  # Replace with your actual OpenAI API key
+api_key = 'YOUR_API_KEY'  # Replace with your actual API key
 
 
 # Initialize the Anthropic API client

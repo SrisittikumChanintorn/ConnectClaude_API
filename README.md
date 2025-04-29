@@ -21,9 +21,10 @@ The program can:
       pip install -r requirements.txt
    ```
    
-3. Add your OpenAI API key in the `main.py` file
+3. Add your Anthropic API key in the `main.py` file
 ```bash
-api_key = 'YOUR_API_KEY'  # Replace with your actual OpenAI API key
+# Initialize the Anthropic API client
+llm1 = anthropic.Anthropic(api_key=api_key)
 ```
 4. Run the program in CMD : `python main.py`
 
